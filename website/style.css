@@ -1,0 +1,225 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-image: url(background.mp4);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Solway', serif;
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	transition: 0.5s ease;
+}
+
+
+	
+
+
+
+
+
+
+#posts {
+	text-align: center;
+    background-color: white;
+    width: 855px;
+    padding: 200px;
+    margin: 100px;
+    font-family: 'Solway', serif;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 0 8px rgba(35, 173, 278, 1);
+	
+}
+
+.image-container {
+	width: 925px;
+	height: 600px;
+	transition: all 0.5s ease-out;
+	
+}
+
+
+.image-container:hover {
+	box-shadow: 0 0 8px rgba(35, 173, 278, 1);
+	
+}
+
+.ark2 {
+	width: 925px;
+	height: 600px;
+	transition: all 0.5s ease-out;
+	
+}
+
+.ark2:hover {
+	box-shadow: 0 0 8px rgba(35, 173, 278, 1);
+	
+}
+
+a {
+    color: black;
+    transition: 0.5s ease;
+	opacity: 1;
+	text-decoration: none;
+	
+}
+
+a:hover {
+	opacity: 0.5;
+	text-decoration: underline white;
+}
+
+.ark2 {
+	background-color: black;
+	width: 925px;
+	height: 600px;
+	
+}
+
+.ark2::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.5;
+	
+}
+
+.wp {
+	background-color: black;
+	width: 925px;
+	height: 600px;
+	
+}
+
+.wp::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.5;
+}
+
+.bg {
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.video {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+	.video {
+	  width: 100%;
+	  height: auto;
+	}
+  }
+  
+  @media (max-aspect-ratio: 16/9) {
+	.video {
+	  width: auto;
+	  height: 100%;
+	}
+  }
+
+  .art2 {
+    background-color: white;
+    font-family: 'Solway', serif;
+	box-shadow: 0 0 8px rgba(35, 173, 278, 1); 
+	color: black;
+	align-items: center;
+	
+
+	z-index: 2;
+  }
+
+  
+
+  header::after {
+	  content: '';
+	  display: table;
+	  clear: both;
+	  font-family: 'Solway', serif;
+  }
+
+
+
+nav {
+	list-style: none;
+	text-align: center;
+	text-shadow: 0 0 8px #4d4d4d;
+	font-family: 'Solway', serif;
+	display: flex;
+	justify-content: space-around;
+	min-height: 8vh;
+	align-items: center;
+	background-color: white;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	font-weight: bold;
+	box-shadow: 0 0 8px rgba(35, 173, 278, 1);
+	position: sticky;
+	top: 0px;
+  }
+
+  .tran1 {
+	font-size: 20px;
+	justify-content: space-around;
+	display: inline;
+	position: relative;
+	text-align: left;
+	padding-right: 100px;
+}
+  
+
+.tran {
+	font-size: 20px;
+	justify-content: space-around;
+	position: relative;
+	text-align: left;
+	padding-right: 150px;
+}
+
+.logo {
+	margin-left: 10px;
+	width: 150px;
+	height: 150px;
+	left: 0px;
+}
+
+.nav-links {
+	display:flex;
+	justify-content: space-around;
+	width: 30%;
+}
+
+.title {
+	letter-spacing: 3px;
+	padding-right: 500px;
+}
+
+.navlogo {
+	padding: 0px;
+	margin: 0px;
+}
+
+.line {
+	width: 840px;
+	height: 1px;
+	background-color: black;
+	font-size: 30px;
+}
